@@ -1,11 +1,12 @@
-import { Main } from "../src/assets/styles/Main";
+import { Background } from "./styled";
+import SolarSyn from "../src/assets/SolarSyn.svg";
 
 function App() {
 
   return (
-    <Main>
-      
-    </Main>
+    <Background>
+      <img src={SolarSyn}/>
+    </Background>
   )
 }
 
