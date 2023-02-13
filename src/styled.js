@@ -48,7 +48,25 @@ export const Background = styled.div`
             position: absolute;
             width: 100%;
         }
+
 }
-   
+.montainBackgroundImage{
+
+
+        position: relative;
+        margin-top: 18.5vh;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: -15px;
+
+        .sideRight{
+            margin-left: -60px;
+        }
+        .sideLeft{
+            margin-right: -110px;
+        }
+    }
 `    
 
