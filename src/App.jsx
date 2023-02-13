@@ -11,6 +11,9 @@ function App() {
 
   return (
     <Background>
+
+      <div className="star"></div>
+
       <img className="sun"src={SolarSyn}/>
       <div className="grid"></div>
 
